@@ -1,0 +1,20 @@
+body{
+    background-color: #000000;
+    color: #fff;
+}
+
+.neon{
+    font-size: 38px;
+    text-align: center;
+    line-height: 2;
+    color: #005c80;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 45px #609dce,
+                     0 0 55px #005c80,
+                     0 0 65px #2BBF03;
+    }  
+}

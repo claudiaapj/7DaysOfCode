@@ -1,0 +1,76 @@
+body{
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+}
+
+.neon{
+    font-size: 38px;
+    text-align: center;
+    line-height: 2;
+    color: #cc0909;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 45px #ee6d6d,
+                     0 0 55px #cc0909,
+                     0 0 65px #bf4e03;
+    }  
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.formulario{
+    width: 60%;
+    height: 400px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+
+}
+
+label{
+    color: #fff;
+    font-size: 22px;
+   
+}
+
+input{
+    margin: 20px 0px;
+    font-size: 15px;
+    height: 25px;
+    width: 600px; 
+}
+
+li{
+    list-style-type: none;
+}
+
+#pergunta2{
+    width: 100px;
+    text-align: center;
+}
+
+.envio{
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: #da0707;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#label-exibir{
+    color: #fff;
+    font-size: 22px;
+    width: 100%;
+}
